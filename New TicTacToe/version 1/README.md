@@ -21,40 +21,7 @@ Select AI difficulty (Normal/Hard): Normal
 Should Player 2 be an AI? (yes/no): no
 Enter name for Player 2 (Max 8 characters): Alex
 Enter symbol for Player 2 (A-Z): A
-- - - 
-- - - 
-- - - 
-AdamBot's turn (X) - AI (Normal) is thinking...
-- - - 
-X - - 
-- - - 
-Alex's turn (A) - Enter row and column (1-3): 
-2 1
-Invalid move! Try again.
-Alex's turn (A) - Enter row and column (1-3): 
-2 2
-- - - 
-X A - 
-- - - 
-AdamBot's turn (X) - AI (Normal) is thinking...
-- - X 
-X A - 
-- - - 
-Alex's turn (A) - Enter row and column (1-3): 
-1 1
-A - X 
-X A - 
-- - - 
-AdamBot's turn (X) - AI (Normal) is thinking...
-A X X 
-X A - 
-- - - 
-Alex's turn (A) - Enter row and column (1-3): 
-3 3
-A X X 
-X A - 
-- - A 
-Alex wins!
 
-Process finished with exit code 0
+![image](https://github.com/user-attachments/assets/487bb6c4-1aa0-4211-b461-67e3935d582e)
+
 
