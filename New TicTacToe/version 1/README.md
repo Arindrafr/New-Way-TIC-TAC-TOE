@@ -1,19 +1,60 @@
-# New-Way-TIC-TAC-TOE
-Enhancement from traditional TICTACTOE game 
-There is 2 Version in this project
-Version 1 is Normal Tic Tac Toe
-Version 2 is Ultimate Tic Tac Toe
+# HOW TO PLAY
 
-VERSION 1 Enhancement
-1. You can play TIC TAC TOE with 3 people
-2. You can play TIC TAC TOE with custom board (IF your input 3 than board will be 3x3, or if your input 5 than 5x5)
-3. Boring with X O symbol? You can Define Your Own Symbol (One char alphabet, example: A, Z, U, etc...)
-4. No friend to play with? No worries There is an AI here
-5. You Have 2 AI max, and chose Normal Difficulty and Hard Difficulity
+This is Java Game, You can play on Your IDEA(Intellij, Eclipssse or else) and Run Game class. Or you can make it as jar file and play in CMD.
 
-Version 2 Enhancement
-1. Traditional TIC TAC TOE But Bigger
-2. Board fixed 3x3 BUT There is 9 BOARD. So Basically Board is Contains 9 Mini Board (3x3)
-3. Win Condition same as Tic Tac Toe traditional, But you need win each mini board to mark that board yours and then you must mark mini board to make win on Big Board (horizontal/vertical/diagonal on mini board and BigBoard)
-4. You Can play only with 2 people, and stil you can use AI (AI Still need improvement)
-5. Yes! This is basically Tic Tac Toe inside Tic Tac Toe ;)
+# RULE
+1. Same as Normal Tic Tac Toe, you need mark diagonal, vertical, or horizontal n or more in Row
+2. Game Tie if Board Filled but no mark n marks in a row.
+3. n here is board size, so if you play 3x3 so need 3 mark in row, if you play 10x10 than you need 10 mark in a row
+4. You can filled your name and your own symbol
+5. Game is best of one, wanna play more start from beggining again
+6. Coordinate/Grid start with 1 not 0
+
+#Glimpse of the game
+
+When you started game, it should be like this :
+
+Enter number of players (2 or 3): 2
+Enter board size (Min 3): 3
+Should Player 1 be an AI? (yes/no): yes
+Select AI difficulty (Normal/Hard): Normal
+Should Player 2 be an AI? (yes/no): no
+Enter name for Player 2 (Max 8 characters): Alex
+Enter symbol for Player 2 (A-Z): A
+- - - 
+- - - 
+- - - 
+AdamBot's turn (X) - AI (Normal) is thinking...
+- - - 
+X - - 
+- - - 
+Alex's turn (A) - Enter row and column (1-3): 
+2 1
+Invalid move! Try again.
+Alex's turn (A) - Enter row and column (1-3): 
+2 2
+- - - 
+X A - 
+- - - 
+AdamBot's turn (X) - AI (Normal) is thinking...
+- - X 
+X A - 
+- - - 
+Alex's turn (A) - Enter row and column (1-3): 
+1 1
+A - X 
+X A - 
+- - - 
+AdamBot's turn (X) - AI (Normal) is thinking...
+A X X 
+X A - 
+- - - 
+Alex's turn (A) - Enter row and column (1-3): 
+3 3
+A X X 
+X A - 
+- - A 
+Alex wins!
+
+Process finished with exit code 0
+
