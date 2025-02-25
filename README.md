@@ -16,4 +16,4 @@ Version 2 Enhancement
 2. Board fixed 3x3 BUT There is 9 BOARD. So Basically Board is Contains 9 Mini Board (3x3)
 3. Win Condition same as Tic Tac Toe traditional, But you need win each mini board to mark that board yours and then you must mark mini board to make win on Big Board (horizontal/vertical/diagonal on mini board and BigBoard)
 4. You Can play only with 2 people, and stil you can use AI (AI Still need improvement)
-5. Yes! This is basically Tic tac toe inside Tic Tac Toe ;)
+5. Yes! This is basically Tic Tac Toe inside Tic Tac Toe ;)
